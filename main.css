@@ -1,0 +1,34 @@
+header {
+    background-color: orange;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+main .row {
+    margin-bottom: 20px;
+}
+
+.box {
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.character {
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.character-content {
+    padding: 20px;
+}
