@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.row{
+	width:960px;
+	margin-top:20px;
+	margin:auto;
+	
+}
+.col-4{
+	float:left;
+	width:100%;
+	height:200px;
+	padding-right:1.041%;
+	padding-left:1.041%;
+	margin-bottom:15%;
+
+
+}
+
+img{
+	width:100%;
+	height:80%;
+}
+
+.desc{
+	width:100%;
+	text-align:center;
+	height:20%;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .col-4 {
+    width: 31.25%;
+  }
+
+@media only screen and (max-width: 640px) {
+	.col-4{
+		width:100%;
+		}
+}
