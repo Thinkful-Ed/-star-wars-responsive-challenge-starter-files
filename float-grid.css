@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Grid measurements:
+*
+*    960px
+*
+*    80px colums (12)
+*
+*    20px gutters
+*
+*
+**/
+
+.row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+/* Clearfix */
+
+.row::before,
+.row::after {
+    display: table;
+    content: '';
+}
+
+.row::after {
+    clear: both;
+}
+
+.col-4 {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+
+
+/* Mobile defaults */
+
+.col-4 {
+    width: 100%;
+}
+
+
+/* Non-mobile, grid */
+
+@media only screen and (min-width: 640px) {
+    .col-4 {
+        width: 33.3%;
+    }
+}
