@@ -1,0 +1,40 @@
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-4, .col-12 {
+  float: left;
+  /* Gutters:
+   * Each column is padded by half-a-gutter on each side,
+   *
+   * Half a gutter is 10px, 10/960 (context) = 1.041666%
+   *
+   */
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+
+/* mobile */
+
+.col-4, .col-12 {
+  width: 100%;
+}
+
+
+/* non-mobile */
+
+@media only screen and (min-width: 640px) {
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}

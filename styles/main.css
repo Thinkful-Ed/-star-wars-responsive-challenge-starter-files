@@ -1,0 +1,26 @@
+header h1 {
+  margin-bottom: -15px;
+}
+
+header {
+  background-color: #F0BD35;
+  margin-bottom: 30px;
+}
+
+.box {
+  border: 1px solid #EAEAEA;
+  margin-bottom: 10px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box-titles {
+  margin-left: 10px;
+}
+
+.box-titles h5 {
+  font-weight: normal;
+  margin-top: -10px;
+}
