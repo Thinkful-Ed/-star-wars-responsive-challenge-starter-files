@@ -6,6 +6,7 @@
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Star Wars characters baseball cards for Toppz the company">
 
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
@@ -14,9 +15,80 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/float-grid.css">
 
 </head>
 <body>
+  <header>
+    <div class="row">
+      <div class="col-12">
+    <h1>Star Wars characters</h1>
+    <h4>Incomplete list</h4>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+  <div class="row">
+      <div class="col-4">
+        <div class="box rey">
+          <img src="images/rey_square.png">
+          <div class="box-titles">
+          <h4>Rey</h4>
+          <h5>Protagonist, from Tatooine</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box finn">
+        <img src="images/finn_square.png">
+          <div class="box-titles">
+          <h4>Finn</h4>
+          <h5>Storm Trooper, befriends Rey</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box kylo">
+        <img src="images/kylo_square.png">
+          <div class="box-titles">
+          <h4>Kylo</h4>
+          <h5>Main villain, or is he?</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-4">
+        <div class="box poe">
+        <img src="images/poe_square.png"></div>
+        <div class="box-titles">
+          <h4>Poe</h4>
+          <h5>Neutral pilot</h5>
+          </div>
+      </div>
+      <div class="col-4">
+        <div class="box chewbacca">
+        <img src="images/chewbacca_square.png">
+          <div class="box-titles">
+          <h4>Chewbacca</h4>
+          <h5>A great first mate</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box yoda">
+        <img src="images/yoda_square.png">
+          <div class="box-titles">
+          <h4>Yoda</h4>
+          <h5>Wise old Jedi master</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>
