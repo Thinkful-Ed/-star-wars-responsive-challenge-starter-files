@@ -1,2 +1,3 @@
 # Star Wars Responsive challange
-**Thinkful**
+
+**Published** *http://asifraza.me/star-wars-responsive-challenge-starter-files/*
