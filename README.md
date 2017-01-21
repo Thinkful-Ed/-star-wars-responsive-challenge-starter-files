@@ -1,2 +1,2 @@
-# Start Wars Responsive challange
+# Star Wars Responsive challange
 **Thinkful**
