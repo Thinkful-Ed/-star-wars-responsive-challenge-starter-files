@@ -1,0 +1,43 @@
+body {
+}
+
+body .row {
+  margin-bottom: 20px;
+}
+
+header, header h1{
+  font-size: 30px;
+  background-color: orange;
+}
+
+header h1 span, .box span {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.box{
+  text-align: left;
+  border: 1px solid #CCC;
+  margin-bottom: 10px;
+}
+
+.box img {
+  width: 395px;
+}
+
+.box h1 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.box span {
+  color: #666;
+}
+
+
+/* For Image size fix, grid */
+@media only screen and (min-width: 640px) {
+  .box img {
+    width: 300px;
+  }
+}
