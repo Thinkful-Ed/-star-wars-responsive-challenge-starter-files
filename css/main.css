@@ -1,0 +1,35 @@
+main {
+    padding-top: 50px;
+}
+
+main .row {
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #e9be52;
+}
+
+.box {
+    text-align: center;
+}
+
+.box img {
+    height:100%;
+    width:100%;
+}
+
+.caption {
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    margin-top: -4px;
+}
+
+.name {
+    font-weight:bold;
+    font-size: 13px;
+}
+
+.description {
+    font-size: 12px;
+}
