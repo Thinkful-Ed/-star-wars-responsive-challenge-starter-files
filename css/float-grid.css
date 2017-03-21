@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-4 {
+  width: 100%;
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+.box img {
+  display: inline-block;
+  width: 100%;
+};
+
+.box {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px)  {
+  .col-4 {
+    width: 33.33%;
+  }
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+
+}

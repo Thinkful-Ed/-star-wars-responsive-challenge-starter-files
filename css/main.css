@@ -1,0 +1,30 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  border: 1px solid #f1f1f1;
+  margin: 5px;
+}
+
+.box h2, p {
+  margin-left: 10px;
+}
+
+.header {
+  background-color: #dcba60;
+  margin-bottom: 40px;
+}
+
+.header_text h1 {
+  margin-bottom: 1px;
+}
+
+.header_text p {
+  margin-top: 1px;
+}
+.header_text {
+  display: inline-block;
+  margin: 0 auto;
+}
